@@ -1,2 +1,2 @@
 # New project
-this project making using only html 
+this project making using only html and css
