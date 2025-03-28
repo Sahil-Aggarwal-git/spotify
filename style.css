@@ -1,0 +1,478 @@
+*
+{
+margin: 0;
+padding: 0;
+background-color: #000;
+}
+.main
+{
+    display: flex;
+}
+.sidebar
+{
+    width: 100%;
+    display: flex;
+    position: fixed;
+    top: 0rem;
+}
+.icon{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+.icon img
+{
+    height: 2.75rem;
+    width: 2.75rem;
+    font-size: 1.3rem;
+    /* margin: 0.3rem 0.5rem 0.5rem 0.5rem; */
+     justify-self: center;
+    padding: 0.75rem;
+    /* color: #fff; */
+}
+
+.icon i{
+    font-size: 1.3rem;
+    color: #fff;
+    justify-self: center;
+    padding: 0.75rem;
+    background-color: #212121;
+    border-radius: 50%;
+}
+
+.navbar
+{
+    --padding:1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: var(--padding);
+    background-color: #212121;
+    border-radius: 2rem;
+    width: 29rem;
+    margin: var(--padding);
+    justify-content: space-between;
+}
+.navbar i{
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: transparent;
+    opacity: 0.5;
+}
+
+.search-input
+{
+    outline: none;
+    background-color: transparent;
+    border: none;
+    /* width: max-content; */
+}
+.badge
+{
+    display: flex;
+    justify-content: flex-end;
+    /* justify-items: center; */
+    align-items: center;
+    flex: 1;
+}
+
+.badge1
+{
+    color: #000;
+    background: #fff;
+    outline: none;
+    border: none;
+    border-radius: 1.56rem;
+    font-weight: 600;
+     height:2rem;
+     padding: 0.25rem 1rem;
+     margin: 0.75rem;
+     width: 10rem;
+}
+.badge2
+{
+    color: #fff;
+    background: #000;
+    outline: none;
+    border: none;
+    border-radius: 1.56rem;
+    font-weight: 600;
+    height:2rem;
+    padding: 0.25rem 1rem;
+    margin: 0.75rem;
+    width: 10rem;
+}
+.noti{
+    color: #fff;
+    background-color: transparent;
+    margin: 0.75rem;
+    height: 1rem;
+    width: 1rem;
+}
+.down
+{
+    background-color: transparent;
+    padding-right: 0.4rem;
+}
+
+.main-content
+{
+    color: #fff;
+}
+
+.libary
+{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+
+.libary p
+{
+    width: 6rem;
+    color: #fff;
+    padding: 0.5rem;
+    opacity: 0.5;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1rem;
+    /* background-color: #212121 */
+
+}
+
+.libary img
+{
+    height: 2rem;
+    width: 2rem;
+    font-weight: 1.5rem;
+    /* margin: 0.3rem 0.5rem 0.5rem 0.5rem; */
+     justify-self: center;
+    padding: 0.75rem;
+    /* color: #fff; */
+    padding: 0.5rem;
+    opacity: 0.5;
+    background-color: transparent;
+    margin: 0.5rem;
+}
+.sidebae2
+{
+    height: 100vh;
+    width: 24rem;
+    background-color: #212121;
+    border-radius: 1rem;
+    margin: 0 0.75rem;
+    overflow: hidden;
+    position: fixed;
+    left: 0rem;
+    margin-top: 5.7rem;
+    /* position: fixed; */
+    /* top: ; */
+    /* bottom: 4rem; */
+}
+.libary i
+{
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: transparent;
+    opacity: 0.5;
+    margin: 0.5rem;
+}
+
+.art-op
+{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.art-op i
+{
+    font-size: 1rem;
+    color: #fff;
+    background-color: transparent;
+    opacity: 0.5;
+    margin: 0.5rem;
+}
+
+.art-op p
+{
+    width: 6rem;
+    color: #fff;
+    padding: 0.5rem;
+    opacity: 0.5;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1rem;
+    /* background-color: #212121 */
+
+}
+.art-btn
+{
+    background-color: transparent;
+}
+.art-btn button
+{
+  color: #fff;
+  background-color:#535353 ;
+  width: 7rem;
+  height: 2rem;
+  border: none;
+  border-radius: 1.56rem;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+#art
+{
+    background-color: transparent;
+    display: flex;
+    /* justify-items: flex-start; */
+    /* align-items: center; */
+    background-color: #212121;
+    padding: 0.2rem;
+}
+
+#art img
+{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background-color: transparent;
+    margin-bottom: 1rem ;
+}
+#art p
+{
+    color: #fff;
+    background-color: transparent;
+    padding-left: 0.5rem;
+    /* margin-top: 0; */
+    /* align-self: baseline; */
+    /* margin: 1rem 0; */
+}
+
+.p
+{
+    color: #fff;
+    background-color: #212121;
+    padding-top: 0%;
+    
+}
+#p
+{
+    color: #fff;
+    background-color: transparent;
+    /* padding-bottom: 1.5rem; */
+    opacity: 0.5;
+    justify-self: flex-start;
+    margin: 1rem 0;
+
+}
+.artist
+{
+    margin-top: 1rem;
+}
+
+.music-player
+{
+    position: fixed;
+    bottom: 0%;
+     width: 100%; 
+    height: 4.5rem; 
+    display: flex;
+    justify-content: center;
+    
+}
+.music-player div
+{
+    background-color: transparent;
+} 
+.main-content
+{
+    background-color: #212121;
+    width: 100%;
+    margin-left: 26rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    margin-top: 7.1rem;
+    margin-bottom: 4.6rem;
+}
+.btn20
+{
+    margin: 0.6rem;
+    border: 2px solid transparent;
+    /* padding: 0.5rem; */
+    border-radius: 1.6rem;
+    color: #fff;
+    background-color :#535353;
+    text-decoration: none;
+    width: 6rem;
+    height: 2.7rem;
+}
+.btns
+{
+    background-color: #212121;
+    width: 100%;
+    display: flex;
+    align-content: center;
+     border-radius: 1rem;
+}
+.btn1
+{
+    background-color: #fff;
+    font-weight: 500;
+    margin: 0.6rem;
+    padding: 0.5rem;
+    border-radius: 1.3rem;
+    width: 3rem;
+    height: 2.7rem;
+}
+.h1{
+    display: flex;
+    color: #fff;
+    justify-self: self-start;
+    background-color: transparent;
+    margin-left: 0.5rem;
+    margin-top: 2rem;
+    align-content: center;
+    justify-content: space-between;
+    width: 100%;
+}
+h1{
+    background-color: transparent;
+}
+.h1 a{
+    background-color: transparent;
+    color: #fff;
+    text-decoration: none;
+    margin: 1rem;
+    opacity: 0.7;
+}
+.music-player{
+    background-color: #000;
+    position: fixed;
+    bottom: 0rem;
+    display: flex;
+}
+.music-player i{
+    font-size: 1.6rem;
+    color: #fff;
+    background-color: transparent;
+    opacity: 1;
+    padding-left: 1rem;
+    margin: 0.3rem;
+    /* opacity: 0.6; */
+}
+.upper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-items: center;
+}
+.input{
+    width: 100%;
+    background-color: aliceblue;
+ }
+.first
+{
+    width: 100%;
+    opacity: 1;
+    background-color: #ddd;
+
+}
+.left{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content:baseline;
+    align-content: center;
+    /* padding-left: 10rem; */
+    width: 15%;
+    position: absolute;
+    right: 6rem;
+}
+.left div{
+    
+    position: absolute;
+    right: 1rem;
+}
+.left i{
+    margin: 0.3rem;
+}
+.mid{
+    width: 35%;
+}
+.second{
+  
+   justify-self: baseline;
+   align-self: start;
+   margin-top: 1rem;
+   color:#fff;
+}
+.left img{
+    justify-self: center;
+    align-items: center;
+    width: 12rem;
+    height: 3rem;
+}
+.cards{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-around;
+}
+.card
+{
+    height: 14rem;
+    width: 12rem;
+    margin: 0.5rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+}
+.card img{
+    height: 9rem;
+    width: 9rem;
+    margin: 0.8rem 0rem 0 1rem;
+    border-radius: 0.4rem;
+}
+.card .pra{
+    margin: 0 0.9rem 0 1.1rem;
+    background-color: transparent;
+    font-size: 14px;
+    text-decoration: none;
+    color: #909090;
+}
+.card:hover{
+    box-shadow: 2px 2px 15px #404040;
+}
+.h2
+{
+    background-color: #212121;
+}
+.h2 h1
+{
+    font-weight: bolder;
+    background-color: #212121;
+    margin: 0.5rem;
+}
+.para
+{
+    margin-left: 1.1rem;
+    font-size: 20px;
+    background-color: transparent;
+}
+span{
+    color: #fff;
+}
+.timer{
+   position: absolute;
+   bottom: 19px;
+   right: 490px;
+}
+.btns{
+    position: fixed;
+    top: 5.5rem;
+}
+b{
+    background-color: transparent;
+}
